@@ -37,5 +37,6 @@ jobs:
           git add -- 1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/SOURCE 1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/CFG 1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/RADAR 1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/docs 1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/ORIGINAL_FILE_SHA256.json 1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/SOURCE_HASHES.json 1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/VALIDATION_REPORT.json
           if ! git diff --cached --quiet; then
             git commit -m 'Publish verified original GameScale2 0.5.7 sources'
+            git pull --rebase origin main
             git push origin HEAD:main
           fi
