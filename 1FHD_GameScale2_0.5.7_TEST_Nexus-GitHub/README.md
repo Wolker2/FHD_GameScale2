@@ -6,7 +6,7 @@
 - [SOURCE](SOURCE) — 12 оригинальных файлов C, H, INC, DEF, Shell, Python, скопированных побайтно
 - [RADAR/ORIGINAL](RADAR/ORIGINAL) — 12 ресурсов миникарты для размеров 150/200/250% (GI, GAI, PNG)
 - [RADAR/PNG](RADAR/PNG) — 3 PNG фоновых изображений, полученных из оригинальных GI для редактирования
-- [CFG/CacheData.dat.json](CFG/CacheData.dat.json) — редактируемый JSON из DAT с побайтовой проверкой обратной конвертации
+- [CFG/CacheData.original.dat](CFG/CacheData.original.dat) — оригинальный DAT побайтно; стандартный кодек его не распознаёт, поэтому редактируемый JSON не выдаётся за восстановленный
 - [docs](docs) — исходный README, ModuleInfo (Windows-1251 и UTF-8), документация XenoStable
 - [Отчёт целостности](VALIDATION_REPORT.json) и [контрольные суммы](ORIGINAL_FILE_SHA256.json)
 - [Скрипт экспорта](tools/export_source.py) и [DAT-кодек](tools/dat_codec.py)
