@@ -44,10 +44,18 @@ def main():
                 exported[target]=copy(target,data)
                 source_count+=1
             elif name==PREFIX+"CFG/CacheData.dat":
-                project=dat_codec.decode(data,"cachedata")
-                assert dat_codec.encode(project)==data
-                target="CFG/CacheData.dat.json"
-                exported[target]=copy(target,(json.dumps(project,ensure_ascii=False,indent=2)+"\n").encode())
+                # Preserve the original even if this revision uses an unrecognized DAT variant.
+                exported["CFG/CacheData.original.dat"]=copy("CFG/CacheData.original.dat",data)
+                for fmt in ("cachedata","blockpar"):
+                    try:
+                        project=dat_codec.decode(data,fmt)
+                        if dat_codec.encode(project)!=data:
+                            continue
+                    except (ValueError,AssertionError,KeyError):
+                        continue
+                    target="CFG/CacheData.dat.json"
+                    exported[target]=copy(target,(json.dumps(project,ensure_ascii=False,indent=2)+"\n").encode())
+                    break
             elif name==PREFIX+"ModuleInfo.txt":
                 txt=data.decode("cp1251")
                 assert txt.encode("cp1251")==data
@@ -80,7 +88,7 @@ def main():
             exported["RADAR/PNG/"+scale+"/Background.png"]=hashdata(png.read_bytes())
     report={"version":"0.5.7_TEST","original_zip_sha256":EXPECTED,"original_files":39,
             "original_source_files":12,"radar_original_resource_files":12,
-            "radar_background_PNG_exports":3,"cachedata_byte_exact_roundtrip":True,
+            "radar_background_PNG_exports":3,"cachedata_byte_exact_roundtrip":("CFG/CacheData.dat.json" in exported),
             "original_files_sha256":original,"dll_compiled":False,"game_tested":False}
     (ROOT/"ORIGINAL_FILE_SHA256.json").write_text(json.dumps(original,ensure_ascii=False,indent=2)+"\n")
     (ROOT/"SOURCE_HASHES.json").write_text(json.dumps(exported,ensure_ascii=False,indent=2)+"\n")
