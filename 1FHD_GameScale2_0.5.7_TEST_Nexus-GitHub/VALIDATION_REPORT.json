@@ -1,0 +1,169 @@
+{
+  "version": "0.5.7_TEST",
+  "original_zip_sha256": "916f251a96e2facd54ee6188c472c5daa7956452b631eaea9970dfc6744755de",
+  "original_files": 39,
+  "original_source_files": 12,
+  "radar_original_resource_files": 12,
+  "radar_background_PNG_exports": 3,
+  "cachedata_byte_exact_roundtrip": false,
+  "original_files_sha256": {
+    "Mods/FHD_MODS/FHD_GameScale2/CFG/CacheData.dat": {
+      "size": 246,
+      "sha256": "9387d85178c595493e358b7e8762e1ed4b252714878d2cdfa4d0f454be111078"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/150/Background.gi": {
+      "size": 99554,
+      "sha256": "18636634533383812c80bcdd133caf2e44b13fda9d43063677605b28d4a6a940"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/150/BlindnessFilter.png": {
+      "size": 1645,
+      "sha256": "5e11617883eb23b7b01e6fd05abf9221af0f36158459f7676c942ef9f9736b6a"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/150/Frame.png": {
+      "size": 3618,
+      "sha256": "4b0e91eefba63b0252f6ad4bd2b1dc768877ebe1fac6de3c58caf29b67ca85d4"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/150/RadarJamming.gai": {
+      "size": 597486,
+      "sha256": "b1053725bdfe10fd5dc2670d569f83b077b027b04102584366755872cfa5aa74"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/200/Background.gi": {
+      "size": 176514,
+      "sha256": "207eb7bec3b0a18d4d265ce8fd97b8df81fbeee15760a552abe3f7bcafa1c896"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/200/BlindnessFilter.png": {
+      "size": 2531,
+      "sha256": "7fa19e131d842b2556248681b6986c6fbeb516fd44f44e0a75a6dce1e2988fa1"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/200/Frame.png": {
+      "size": 4127,
+      "sha256": "e48fe188ea243efd374202fbf6a5a45a67dc9cfdd1fc5d3389a2b54d8a37e244"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/200/RadarJamming.gai": {
+      "size": 1059246,
+      "sha256": "6bd2b3aa1ec42a5bd70db7e75595be6b3e57caf795028387e5a7c91302df49a3"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/250/Background.gi": {
+      "size": 275378,
+      "sha256": "4a279e0b6475f434b4188950f56dc1fb942361d552ac75e72183db946ec556ba"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/250/BlindnessFilter.png": {
+      "size": 4489,
+      "sha256": "7a8ea09de71bacecdfdbaca8530d5eb54ff2536d1c2545077849de0cafc9b434"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/250/Frame.png": {
+      "size": 4505,
+      "sha256": "b132b14813239bea2821143ef97dc6b8561484df320c95365d7239166319f75c"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/250/RadarJamming.gai": {
+      "size": 1652430,
+      "sha256": "a19877b5ec6f3c82a378f8430d01d11b0f916e2e2ef422b7bf6470b6863f8ee9"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/ModuleInfo.txt": {
+      "size": 1101,
+      "sha256": "43806e60eed4f6e6838c01e7904538c078ebb049d22fa45f98f660b17e09b15a"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/Native/FHD_GameScale2.XenoPlugin.dll": {
+      "size": 41472,
+      "sha256": "61ae2efb9e2d36380f25822e4a6af55b35c9682b31b689443c30c5f40c40e5d3"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/Native/FHD_GameScale2.XenoPlugin.ini": {
+      "size": 53,
+      "sha256": "8241a705eab1c354c37a71ea900d542c766bc779eecae8c2ab8bf68b705d5d25"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/README_RU.txt": {
+      "size": 7593,
+      "sha256": "4ad865811c1d9e2f05e7e49af6096068359dfcfdc1973f8449e247c495e83728"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/build.sh": {
+      "size": 2391,
+      "sha256": "c51bb0198c5597306a2fa20159387c0ebb0e669f00bc3e2820cd7fc54d64651a"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/elf_to_coff.py": {
+      "size": 3165,
+      "sha256": "ffb0e4ed2f11dd81c03140b66b9d508a4594f6e430b75fba8bcffbc7605e2a62"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/game_scale.c": {
+      "size": 38414,
+      "sha256": "e5fcb7d8e17f568cb0820cbb3715162b8355eff68a9d893f8d968d8b745168e5"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/game_scale.def": {
+      "size": 93,
+      "sha256": "e0f348e767c6b7070da027514cc6db3cfe723a72e2c034e510711cd711042f25"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/global_ui.inc": {
+      "size": 21993,
+      "sha256": "64db34db591034c111bdd1484fa4e359cffeeb311cb5c9981e574763d0dfd9bb"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/hud.inc": {
+      "size": 22125,
+      "sha256": "67d510a7767b9cd223e878e65508d87ced275e40acb9c2070adaa9e0dc5e3a2b"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/info.inc": {
+      "size": 3688,
+      "sha256": "e810b519432ac9a483637851bea6cff6925648ddc2efbc7a488dc4a08dd163bb"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/kernel32.def": {
+      "size": 130,
+      "sha256": "da583e790f47c2325f7fbaac194b1a295d5d7a9866dc70d9cca62f79a2013333"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/scale_math.h": {
+      "size": 2697,
+      "sha256": "49cb5494c8d0518dc81ba52f2d6f311893374e8a377fee5b1a5894fd088b8427"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/test_scale_math.c": {
+      "size": 1097,
+      "sha256": "42ad0e9cbdf90e6c07cc6df938a02eac0daa36dada14a30fb09ac2771edfd93e"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/ui_transform.h": {
+      "size": 3333,
+      "sha256": "8d8fbfcc484d88c641199533bd9f0c2b7e2b45e6bc4046cbf7b035fa3b5d7b4d"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/user32.def": {
+      "size": 131,
+      "sha256": "0be3f29f029e0401f0454d3c27d100e39860e2ba67a48b933d693abb94441b33"
+    },
+    "XenoNative/Plugins/FHD_FastNewGame/FHD_FastNewGame.ini": {
+      "size": 509,
+      "sha256": "c722e0c24796add00a7795009b387772750c8451b1924e641edb869d9dc93d50"
+    },
+    "XenoNative/Plugins/FHD_FastNewGame/FHD_FastNewGame.XenoPlugin.dll": {
+      "size": 11597,
+      "sha256": "3225b73c06e2e82cfb7ec21a20951fd3b6a1e3584093a77f4ceef51f01e1d08d"
+    },
+    "XenoNative/Plugins/FHD_FastNewGame/XenoNativePlugin.ini": {
+      "size": 95,
+      "sha256": "5db922be66df9a634bf3fcf321362f53604aed45defdfd5ce5a3fee161a3b600"
+    },
+    "XenoNative/Plugins/XenoStable/README_RU.txt": {
+      "size": 4430,
+      "sha256": "30fa3b17d5b311c1c5e0871cc8e860ed5eb23d833fb833cc0296b3598dfecd29"
+    },
+    "XenoNative/Plugins/XenoStable/XenoNativePlugin.ini": {
+      "size": 78,
+      "sha256": "af86e23f870126d319aa06b00e5078812e172e6974065fc61b1e224220a5e75d"
+    },
+    "XenoNative/Plugins/XenoStable/XenoStable.ini": {
+      "size": 282,
+      "sha256": "425c98c9b73ab35717497c3dfa8bec950359ea89dd4ae8ecc95afa3e906c3f6f"
+    },
+    "XenoNative/Plugins/XenoStable/XenoStable.Runtime.dll": {
+      "size": 248320,
+      "sha256": "2c0e678c7d1eec6b7dd496473b227e5a9e724b6982de6f5537ceb1a4dc5950ad"
+    },
+    "dsound.dll": {
+      "size": 79360,
+      "sha256": "ff8f36a294294fedd97a6846cbd390b7cbf46187878194c517935e16843b289b"
+    },
+    "XenoCore.dll": {
+      "size": 333824,
+      "sha256": "28f8f59cb00d08b5134e3bf38c4d17544517a5a213b783ba5edfb2b3cb109f3c"
+    },
+    "XenoNative.ini": {
+      "size": 168,
+      "sha256": "ee125e7ef4ff5f05747261fa12a1fe1455b2a0d39b6548c1e65d71cd4c5c9f82"
+    }
+  },
+  "dll_compiled": false,
+  "game_tested": false
+}

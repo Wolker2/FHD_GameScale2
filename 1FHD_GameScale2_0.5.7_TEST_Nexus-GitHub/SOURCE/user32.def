@@ -1,0 +1,7 @@
+LIBRARY user32.dll
+EXPORTS
+    GetClipCursor@4
+    ClipCursor@4
+    GetForegroundWindow@0
+    GetClientRect@8
+    ClientToScreen@8
