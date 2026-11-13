@@ -1,0 +1,41 @@
+name: Publish GameScale2 0.5.7 original sources
+
+on:
+  push:
+    paths:
+      - '.github/workflows/publish-gamescale2-sources.yml'
+      - '1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/tools/export_source.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install converter for GI
+        run: git clone --depth=1 https://github.com/Xenomorphchyma/SRHD-XenoModKit.git /tmp/SRHD-XenoModKit
+      - name: Recover sources and verify SHA256
+        env:
+          PYTHONPATH: /tmp/SRHD-XenoModKit
+        run: python 1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/tools/export_source.py
+      - name: Run original math test
+        run: |
+          gcc -std=c11 -O2 -Wall -Wextra -Werror 1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/SOURCE/test_scale_math.c -o /tmp/scale_test
+          /tmp/scale_test
+      - name: Commit source files and report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- 1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/SOURCE 1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/CFG 1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/RADAR 1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/docs 1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/ORIGINAL_FILE_SHA256.json 1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/SOURCE_HASHES.json 1FHD_GameScale2_0.5.7_TEST_Nexus-GitHub/VALIDATION_REPORT.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish verified original GameScale2 0.5.7 sources'
+            git push origin HEAD:main
+          fi
