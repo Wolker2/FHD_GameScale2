@@ -1,0 +1,37 @@
+name: Assemble GameScale2 0.5.7.31 Drive archive and recover sources
+on:
+  push:
+    paths:
+      - '.github/workflows/assemble-gamescale2-05731.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Reconstruct exactly from verified chunks
+        run: |
+          mkdir -p '1FHD_GameScale2_0.5.7.31_DRIVE_Nexus-GitHub/install'
+          cat '1FHD_GameScale2_0.5.7.31_DRIVE_Nexus-GitHub'/parts/part* > '1FHD_GameScale2_0.5.7.31_DRIVE_Nexus-GitHub/install/FHD_GameScale2_0.5.7.31.zip'
+          echo 'ae8f19606a6894b5a8f62ba8003db13a08ce919f74d229341579a1a202ab72a2  1FHD_GameScale2_0.5.7.31_DRIVE_Nexus-GitHub/install/FHD_GameScale2_0.5.7.31.zip' | sha256sum -c -
+      - name: Install GI conversion toolkit
+        run: git clone --depth=1 https://github.com/Xenomorphchyma/SRHD-XenoModKit.git /tmp/SRHD-XenoModKit
+      - name: Verify and export original editable sources
+        env:
+          PYTHONPATH: /tmp/SRHD-XenoModKit:1FHD_GameScale2_0.5.7.31_DRIVE_Nexus-GitHub/tools
+        run: |
+          python '1FHD_GameScale2_0.5.7.31_DRIVE_Nexus-GitHub/tools/nexus_source_export.py' --archive '1FHD_GameScale2_0.5.7.31_DRIVE_Nexus-GitHub/install/FHD_GameScale2_0.5.7.31.zip' --target '1FHD_GameScale2_0.5.7.31_DRIVE_Nexus-GitHub' --sha256 ae8f19606a6894b5a8f62ba8003db13a08ce919f74d229341579a1a202ab72a2 --mod FHD_GameScale2
+      - name: Publish complete original ZIP and sources, remove transfer chunks
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '1FHD_GameScale2_0.5.7.31_DRIVE_Nexus-GitHub/install' '1FHD_GameScale2_0.5.7.31_DRIVE_Nexus-GitHub/SOURCE' '1FHD_GameScale2_0.5.7.31_DRIVE_Nexus-GitHub/VALIDATION_REPORT.json'
+          git rm -rq -- '1FHD_GameScale2_0.5.7.31_DRIVE_Nexus-GitHub/parts'
+          git commit -m 'Assemble exact GameScale2 0.5.7.31 archive and recover original source'
+          git pull --rebase origin main
+          git push origin HEAD:main
