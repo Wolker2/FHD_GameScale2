@@ -1,0 +1,17 @@
+FHD Orbit — derived bitmap family used for the Exo 2 menu option.
+
+Based on Exo2-Variable.ttf from:
+https://github.com/google/fonts/tree/main/ofl/exo2
+Copyright 2013 The Exo 2 Project Authors
+https://github.com/googlefonts/Exo-2.0
+Licensed under SIL Open Font License 1.1; see Exo2-OFL.txt.
+
+Native AFT glyphs use source weight 500 for body text and 600 for bold roles,
+without synthetic expansion. The derived family is named FHD Orbit.
+All Cyrillic/Latin body letters and digits come from the Exo 2 source outlines.
+Missing symbols, including direction arrows, are from DejaVu Sans Regular;
+see DejaVu-Regular-LICENSE.txt for copyright notices and its license.
+
+Unmodified source: SOURCE/Fonts/Exo2-Variable.ttf.
+Rebuild: python3 SOURCE/build_orbit_font.py (Pillow + fonttools required).
+The game loads the included AFT files directly; no Windows font installation.

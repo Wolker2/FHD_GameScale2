@@ -1,0 +1,19 @@
+FHD Script Regular and FHD Print Regular — ordinary-weight bitmap variants.
+
+FHD Script Regular is based on the unmodified Lobster-Regular.ttf outlines,
+without the bold expansion used by FHD Script Bold.
+Copyright 2010 The Lobster Project Authors.
+Licensed under SIL Open Font License 1.1; see OFL.txt.
+The derived bitmap family uses the name FHD Script Regular.
+
+FHD Print Regular is based on the unmodified DejaVuSans.ttf Regular outlines.
+Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.
+Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved.
+DejaVu changes are in public domain.
+Full notices and license: DejaVu-Regular-LICENSE.txt.
+The derived bitmap family uses the name FHD Print Regular.
+
+Neither regular variant uses synthetic bold expansion or artificial thinning.
+Sources are in SOURCE/Fonts. Rebuild: python3 SOURCE/build_regular_fonts.py
+(Pillow + fonttools needed for rebuilding only).
+Playing requires no installed Windows fonts.

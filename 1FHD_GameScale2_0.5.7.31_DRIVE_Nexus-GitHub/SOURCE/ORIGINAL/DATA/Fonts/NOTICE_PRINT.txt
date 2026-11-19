@@ -1,0 +1,13 @@
+FHD Print Bold — upright bold bitmap family for FHD_GameScale2.
+
+Based on the bundled, unmodified DejaVuSans-Bold.ttf.
+Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.
+Bitstream Vera is a trademark of Bitstream, Inc.
+DejaVu changes are in public domain.
+The full source font license is in DejaVu-LICENSE.txt.
+
+The derived AFT family is named FHD Print Bold. It contains native game metrics
+and a slight expansion of already-bold outlines for small interface text.
+The source is in SOURCE/Fonts/DejaVuSans-Bold.ttf.
+Rebuild: python3 SOURCE/build_print_font.py (Pillow + fonttools required).
+Playing requires neither Python nor an installed system font.

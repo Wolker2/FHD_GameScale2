@@ -1,0 +1,14 @@
+FHD Script Bold — derived bitmap script family for FHD_GameScale2.
+
+Based on Lobster-Regular.ttf:
+Copyright 2010 The Lobster Project Authors
+https://github.com/impallari/The-Lobster-Font
+https://github.com/google/fonts/tree/main/ofl/lobster
+
+The unmodified source font is in SOURCE/Fonts/Lobster-Regular.ttf.
+The derived FHD Script Bold AFT fonts add a slight bold expansion and native
+game metrics. They are distributed under SIL Open Font License 1.1 (OFL.txt).
+The reserved source family name is not used for the derived font family.
+
+Rebuild fonts: python3 SOURCE/build_script_font.py (Pillow + fonttools required).
+Playing the game requires neither Python nor an installed system font.

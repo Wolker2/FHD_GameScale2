@@ -1,0 +1,15 @@
+Name=FHD_GameScale2
+Author=FHD
+Priority=10
+Section=FHD_MODS
+SectionEng=FHD_MODS
+Languages=Rus,Eng
+NoNormalResources=1
+Dependence=
+Conflict=FHD_GameScale,NotSoMinimapX1.5,NotSoMinimapX2.0,NotSoMinimapX2.5,Mod_Interface,Mod_InterfaceBig,Mod_InterfaceBigNormalText
+SmallDescription=FHD GameScale2 0.5.7.31 TEST - масштаб интерфейса, ширина диалогов и миникарта
+FullDescription=Общий масштаб интерфейса при аппаратной отрисовке с отдельными настройками ширины диалогов и миникарты.
+FullDescription=Требуется XenoNativeLoader. Сборки Rangers.exe 6AC53B97 и 68ECCC46.
+SmallDescriptionEng=FHD GameScale2 0.5.7.31 TEST - interface scaling, dialogue width and minimap size
+FullDescriptionEng=Interface scaling with hardware rendering and separate dialogue width and minimap size settings.
+FullDescriptionEng=Requires XenoNativeLoader. Supports Rangers.exe builds 6AC53B97 and 68ECCC46.

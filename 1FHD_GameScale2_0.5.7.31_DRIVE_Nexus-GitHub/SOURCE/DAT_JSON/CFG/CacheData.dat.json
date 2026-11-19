@@ -1,0 +1,426 @@
+{
+  "format": "cachedata",
+  "seed": 1369621460,
+  "root": {
+    "entries": [
+      {
+        "kind": "block",
+        "name": "Bm",
+        "value": {
+          "entries": [
+            {
+              "kind": "block",
+              "name": "FHDGameScale2",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "CommCloseA",
+                    "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\CommCloseA.gi"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "CommCloseD",
+                    "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\CommCloseD.gi"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "CommCloseH",
+                    "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\CommCloseH.gi"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "CommCloseN",
+                    "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\CommCloseN.gi"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "PilotStarsLeft",
+                    "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\PilotStarsLeft.gi"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "PilotStarsRight",
+                    "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\PilotStarsRight.gi"
+                  },
+                  {
+                    "kind": "block",
+                    "name": "Radar150",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "parameter",
+                          "name": "Background",
+                          "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\150\\Background.gi"
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "Blind",
+                          "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\150\\BlindnessFilter.png"
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "CommPanel",
+                          "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\150\\CommPanelBG.gi"
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "Frame",
+                          "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\150\\Frame.png"
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "Jamming",
+                          "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\150\\RadarJamming.gai"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "kind": "block",
+                    "name": "Radar200",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "parameter",
+                          "name": "Background",
+                          "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\200\\Background.gi"
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "Blind",
+                          "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\200\\BlindnessFilter.png"
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "CommPanel",
+                          "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\200\\CommPanelBG.gi"
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "Frame",
+                          "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\200\\Frame.png"
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "Jamming",
+                          "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\200\\RadarJamming.gai"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "kind": "block",
+                    "name": "Radar250",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "parameter",
+                          "name": "Background",
+                          "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\250\\Background.gi"
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "Blind",
+                          "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\250\\BlindnessFilter.png"
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "CommPanel",
+                          "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\250\\CommPanelBG.gi"
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "Frame",
+                          "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\250\\Frame.png"
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "Jamming",
+                          "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Radar\\250\\RadarJamming.gai"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "kind": "block",
+        "name": "Font",
+        "value": {
+          "entries": [
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_c10",
+              "value": "data\\Font\\Courier New_10_1.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_c11",
+              "value": "data\\Font\\Courier New_11_1.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_c12",
+              "value": "data\\Font\\Courier New_12_3.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_c13",
+              "value": "data\\Font\\Courier New_13_3.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_s11",
+              "value": "data\\font\\Verdana_12_2_bold.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_s12",
+              "value": "data\\font\\Verdana_12_2_bold.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_s13",
+              "value": "data\\font\\Verdana_12_2_bold.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_s14",
+              "value": "data\\font\\Verdana_14_2.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_s9",
+              "value": "data\\font\\Verdana_09_2_bold.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_v11",
+              "value": "data\\Font\\Verdana_11_3_smooth.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_v12",
+              "value": "data\\font\\Verdana_12_3_smooth.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_v12b",
+              "value": "data\\font\\Verdana_12_2_bold_smooth.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_v13",
+              "value": "data\\font\\Verdana_13_3.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_v8",
+              "value": "data\\font\\Verdana_08_1_smooth.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_v8b",
+              "value": "data\\font\\Verdana_08_2_bold_smooth.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_v9",
+              "value": "data\\font\\Verdana_09_2_smooth.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS23_v9b",
+              "value": "data\\font\\Verdana_09_2_bold_smooth.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS27_script14",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Script_Bold_14.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS27_script15",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Script_Bold_15.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS27_script18",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Script_Bold_18.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS27_script20",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Script_Bold_20.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS27_script22",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Script_Bold_22.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS27_script24",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Script_Bold_24.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS28_print13",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Print_Bold_13.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS28_print14",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Print_Bold_14.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS28_print16",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Print_Bold_16.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS28_print18",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Print_Bold_18.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS28_print20",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Print_Bold_20.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS28_print22",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Print_Bold_22.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS29_print_regular13",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Print_Regular_13.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS29_print_regular14",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Print_Regular_14.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS29_print_regular16",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Print_Regular_16.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS29_print_regular18",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Print_Regular_18.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS29_print_regular20",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Print_Regular_20.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS29_print_regular22",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Print_Regular_22.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS29_script_regular14",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Script_Regular_14.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS29_script_regular15",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Script_Regular_15.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS29_script_regular18",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Script_Regular_18.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS29_script_regular20",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Script_Regular_20.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS29_script_regular22",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Script_Regular_22.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS29_script_regular24",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Script_Regular_24.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS30_orbit13",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Orbit_Medium_13.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS30_orbit14",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Orbit_Medium_14.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS30_orbit16",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Orbit_Medium_16.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS30_orbit18",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Orbit_Medium_18.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS30_orbit20",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Orbit_Medium_20.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS30_orbit22",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Orbit_Medium_22.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS30_orbit_b13",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Orbit_Semibold_13.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS30_orbit_b14",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Orbit_Semibold_14.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS30_orbit_b16",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Orbit_Semibold_16.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS30_orbit_b18",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Orbit_Semibold_18.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS30_orbit_b20",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Orbit_Semibold_20.aft"
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDGS30_orbit_b22",
+              "value": "Mods\\FHD_MODS\\FHD_GameScale2\\DATA\\Fonts\\FHD_Orbit_Semibold_22.aft"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+Bm {
+    FHDGameScale2 {
+        CommCloseA=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\CommCloseA.gi
+        CommCloseD=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\CommCloseD.gi
+        CommCloseH=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\CommCloseH.gi
+        CommCloseN=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\CommCloseN.gi
+        PilotStarsLeft=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\PilotStarsLeft.gi
+        PilotStarsRight=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\PilotStarsRight.gi
+        Radar150 {
+            Background=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\150\Background.gi
+            Blind=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\150\BlindnessFilter.png
+            CommPanel=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\150\CommPanelBG.gi
+            Frame=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\150\Frame.png
+            Jamming=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\150\RadarJamming.gai
+        }
+        Radar200 {
+            Background=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\200\Background.gi
+            Blind=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\200\BlindnessFilter.png
+            CommPanel=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\200\CommPanelBG.gi
+            Frame=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\200\Frame.png
+            Jamming=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\200\RadarJamming.gai
+        }
+        Radar250 {
+            Background=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\250\Background.gi
+            Blind=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\250\BlindnessFilter.png
+            CommPanel=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\250\CommPanelBG.gi
+            Frame=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\250\Frame.png
+            Jamming=Mods\FHD_MODS\FHD_GameScale2\DATA\Radar\250\RadarJamming.gai
+        }
+    }
+}
+Font {
+    FHDGS23_v8=data\font\Verdana_08_1_smooth.aft
+    FHDGS23_v8b=data\font\Verdana_08_2_bold_smooth.aft
+    FHDGS23_v9=data\font\Verdana_09_2_smooth.aft
+    FHDGS23_v9b=data\font\Verdana_09_2_bold_smooth.aft
+    FHDGS23_v11=data\Font\Verdana_11_3_smooth.aft
+    FHDGS23_v12=data\font\Verdana_12_3_smooth.aft
+    FHDGS23_v12b=data\font\Verdana_12_2_bold_smooth.aft
+    FHDGS23_v13=data\font\Verdana_13_3.aft
+    FHDGS23_s9=data\font\Verdana_09_2_bold.aft
+    FHDGS23_s11=data\font\Verdana_12_2_bold.aft
+    FHDGS23_s12=data\font\Verdana_12_2_bold.aft
+    FHDGS23_s13=data\font\Verdana_12_2_bold.aft
+    FHDGS23_s14=data\font\Verdana_14_2.aft
+    FHDGS23_c10=data\Font\Courier New_10_1.aft
+    FHDGS23_c11=data\Font\Courier New_11_1.aft
+    FHDGS23_c12=data\Font\Courier New_12_3.aft
+    FHDGS23_c13=data\Font\Courier New_13_3.aft
+    FHDGS27_script14=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Script_Bold_14.aft
+    FHDGS27_script15=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Script_Bold_15.aft
+    FHDGS27_script18=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Script_Bold_18.aft
+    FHDGS27_script20=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Script_Bold_20.aft
+    FHDGS27_script22=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Script_Bold_22.aft
+    FHDGS27_script24=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Script_Bold_24.aft
+    FHDGS28_print13=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Print_Bold_13.aft
+    FHDGS28_print14=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Print_Bold_14.aft
+    FHDGS28_print16=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Print_Bold_16.aft
+    FHDGS28_print18=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Print_Bold_18.aft
+    FHDGS28_print20=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Print_Bold_20.aft
+    FHDGS28_print22=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Print_Bold_22.aft
+    FHDGS29_script_regular14=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Script_Regular_14.aft
+    FHDGS29_script_regular15=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Script_Regular_15.aft
+    FHDGS29_script_regular18=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Script_Regular_18.aft
+    FHDGS29_script_regular20=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Script_Regular_20.aft
+    FHDGS29_script_regular22=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Script_Regular_22.aft
+    FHDGS29_script_regular24=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Script_Regular_24.aft
+    FHDGS29_print_regular13=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Print_Regular_13.aft
+    FHDGS29_print_regular14=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Print_Regular_14.aft
+    FHDGS29_print_regular16=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Print_Regular_16.aft
+    FHDGS29_print_regular18=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Print_Regular_18.aft
+    FHDGS29_print_regular20=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Print_Regular_20.aft
+    FHDGS29_print_regular22=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Print_Regular_22.aft
+    FHDGS30_orbit13=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Orbit_Medium_13.aft
+    FHDGS30_orbit14=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Orbit_Medium_14.aft
+    FHDGS30_orbit16=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Orbit_Medium_16.aft
+    FHDGS30_orbit18=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Orbit_Medium_18.aft
+    FHDGS30_orbit20=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Orbit_Medium_20.aft
+    FHDGS30_orbit22=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Orbit_Medium_22.aft
+    FHDGS30_orbit_b13=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Orbit_Semibold_13.aft
+    FHDGS30_orbit_b14=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Orbit_Semibold_14.aft
+    FHDGS30_orbit_b16=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Orbit_Semibold_16.aft
+    FHDGS30_orbit_b18=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Orbit_Semibold_18.aft
+    FHDGS30_orbit_b20=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Orbit_Semibold_20.aft
+    FHDGS30_orbit_b22=Mods\FHD_MODS\FHD_GameScale2\DATA\Fonts\FHD_Orbit_Semibold_22.aft
+}

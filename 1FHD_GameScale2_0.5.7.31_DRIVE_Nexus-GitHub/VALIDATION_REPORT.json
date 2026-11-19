@@ -1,0 +1,452 @@
+{
+  "mod": "FHD_GameScale2",
+  "source_archive": "FHD_GameScale2_0.5.7.31.zip",
+  "archive_sha256": "ae8f19606a6894b5a8f62ba8003db13a08ce919f74d229341579a1a202ab72a2",
+  "archive_file_count": 109,
+  "original_files_in_source": 98,
+  "text_or_code_files": 36,
+  "byte_exact_DAT_to_JSON": 1,
+  "png_files": 12,
+  "data_loss_in_original_archive": false,
+  "dll_source_recovered_from_compiled_binary": false,
+  "game_tested": false,
+  "warnings": [],
+  "files": {
+    "Mods/FHD_MODS/FHD_GameScale2/CFG/CacheData.dat": {
+      "size": 848,
+      "sha256": "56e95a09f0912894b84a860b035f3d33e4c8001070052a846f55d84ab2ffa14f"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/DejaVu-LICENSE.txt": {
+      "size": 4920,
+      "sha256": "74cdc53c48d2c371d79d55503954482161753559360c4f92c867de743287d07c"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/DejaVu-Regular-LICENSE.txt": {
+      "size": 4920,
+      "sha256": "74cdc53c48d2c371d79d55503954482161753559360c4f92c867de743287d07c"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/Exo2-OFL.txt": {
+      "size": 4386,
+      "sha256": "7f95a8eeecc6904ffc81cd10cc8ebc7fcee72a67922924bf45f02dff03b88127"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Orbit_Medium_13.aft": {
+      "size": 159324,
+      "sha256": "9acb5f483a97d6f7505696c6afe85d6ce0e9ae1cf41044ace9ed860eab08ef09"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Orbit_Medium_14.aft": {
+      "size": 167175,
+      "sha256": "6d2f62b9c4002d6b2c902b1f86c8987aeaa9d7dce53f6771b420f7bc3b5b826a"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Orbit_Medium_16.aft": {
+      "size": 183836,
+      "sha256": "537717ec56f3f181067a24ee6943fcfd3175028e3e9642e6fae14dc85ac3388f"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Orbit_Medium_18.aft": {
+      "size": 204957,
+      "sha256": "f0f33179f6ec4a79d4d62a512a77b34540b0e15669f57b08dac660926cd1f0f6"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Orbit_Medium_20.aft": {
+      "size": 224084,
+      "sha256": "67eba36fb887256c0e227bdd804f07c64cffd2de6f7bee3190e8f2fbbe22410b"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Orbit_Medium_22.aft": {
+      "size": 248637,
+      "sha256": "a8bd81c661db721c0d94da8791d4686e65dcf7d8ea0ff7e2a443e547d3ad61c1"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Orbit_Semibold_13.aft": {
+      "size": 162125,
+      "sha256": "655f7e09731998db7b1e59479940abdf2c95277444796e16982f56f2af12a34c"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Orbit_Semibold_14.aft": {
+      "size": 170643,
+      "sha256": "374febd9bede7bacff3a7c6eaa897b22c150a46730831158134a3c7a0bd374f9"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Orbit_Semibold_16.aft": {
+      "size": 189577,
+      "sha256": "026a7643d37c5a107aa35e994639ce59fb8286795de364d5023e3d6093539b66"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Orbit_Semibold_18.aft": {
+      "size": 210949,
+      "sha256": "de583f24be13f56e41f3e4c0ef68481115b70ebaf3ea32b7050d0edf635700be"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Orbit_Semibold_20.aft": {
+      "size": 233409,
+      "sha256": "b905123282da28aa331c9c176f5a30aa33fce0d38a69fa098f19e218bb0773d0"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Orbit_Semibold_22.aft": {
+      "size": 258898,
+      "sha256": "d1cad6b9e4d1b1379c38ef2459743b102fe796909e96b1626f2fc70c1252eb84"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Print_Bold_13.aft": {
+      "size": 186103,
+      "sha256": "28483bde38c380cbe1d96e3e5b5d4e18dc12b7684ddc80c62d785b1a9301bf57"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Print_Bold_14.aft": {
+      "size": 198866,
+      "sha256": "fe482e685339f95ed2861ee3a8bf6c8c3a2fe9afd82d84c6a181bcbe2e20b4ce"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Print_Bold_16.aft": {
+      "size": 222064,
+      "sha256": "e6a5089405237c5e2ea849f8a2d0f7ee6c478d30b6a96ff32e9c4a7ca2c588cb"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Print_Bold_18.aft": {
+      "size": 250786,
+      "sha256": "e4c40ad3a659ff813ba93c1bc93fce66177778c5af3e51cef22fbc5867427f8c"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Print_Bold_20.aft": {
+      "size": 280565,
+      "sha256": "90ac3673960eb7bce65ef24ffb1124c5d628f10867e043f19ff440f768b07e58"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Print_Bold_22.aft": {
+      "size": 314777,
+      "sha256": "a734fc68655ba33a22c024dd903ed59755627350c58157b0f2830fffe2b9e018"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Print_Regular_13.aft": {
+      "size": 158162,
+      "sha256": "0a136452bf63fb02dffe5d1b9b4a857328739d28f846a3c1ea0f10aaec141f1e"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Print_Regular_14.aft": {
+      "size": 167206,
+      "sha256": "b388157a4eeaff2cff7f129526d99f29bb2c71802f95785579e6e4221a86b065"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Print_Regular_16.aft": {
+      "size": 184904,
+      "sha256": "0de6e417ee3a3665059cca234300425add8cc13a3bcfc01905f622f5caeb6173"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Print_Regular_18.aft": {
+      "size": 204907,
+      "sha256": "fca159d95f3c27c4ab209c4dad922cf427bbb952a293f636f1f8f9164a575cd7"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Print_Regular_20.aft": {
+      "size": 226300,
+      "sha256": "42e19feaa8a7394358dea06516dbaf0b4c41450c2f9cd26953fad495d72eae03"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Print_Regular_22.aft": {
+      "size": 248802,
+      "sha256": "49fb1a3c1b6bfe6e36ba1d453da24516435b86cb1e49591279d4fd41fa3630c4"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Script_Bold_14.aft": {
+      "size": 164744,
+      "sha256": "cd7f78d91d45b61a877315bebdec7b724043d1307d00be047d688c4fdb346666"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Script_Bold_15.aft": {
+      "size": 175348,
+      "sha256": "794a955ea93ca587827380f712305eb4405719fa5402130824966561ba75cc68"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Script_Bold_18.aft": {
+      "size": 208906,
+      "sha256": "9164f4dcddb5fdd9f6fd075568ee1b6f588df5c0b090cbcb708422cebae1ee99"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Script_Bold_20.aft": {
+      "size": 234458,
+      "sha256": "2cad38fa082ac79ff8683f832fbf30a330ed82d43cb8f98da1f9beb2aa3d9645"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Script_Bold_22.aft": {
+      "size": 258515,
+      "sha256": "ea57982b534a7084f16ea4966c8f4a1e18e7fcc0d426c1eb6001bbceddb01313"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Script_Bold_24.aft": {
+      "size": 285586,
+      "sha256": "8504d3aff94f0c2039ff5bc0675fcd0c97c2531be473ca4c04e955a21c09e66c"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Script_Regular_14.aft": {
+      "size": 154833,
+      "sha256": "430dce427b927dd08b87cecad497eff5462f8f2d9d48b1ac4f6d01dfa8fc063f"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Script_Regular_15.aft": {
+      "size": 165261,
+      "sha256": "d43d5ac19ddf83d6e9e464a9f4b6ecc91bac6bdd02cd42032ea4e3360a4708f3"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Script_Regular_18.aft": {
+      "size": 195283,
+      "sha256": "a79a98a1dd6680379e3d3a5cf60b398c3273b062a43cfe240b4ca1ce8b15e6f2"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Script_Regular_20.aft": {
+      "size": 214890,
+      "sha256": "5d9e8d892e68bbf35c134b08e2128e292571e805010c0ac736790e34ce069e1f"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Script_Regular_22.aft": {
+      "size": 242765,
+      "sha256": "97811fd0d68069d14ada51ab40ba6fb45f23b7d42fc5ac03e836e7918f85ab35"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/FHD_Script_Regular_24.aft": {
+      "size": 264352,
+      "sha256": "da299dc2f8c3f9b8f2afff4b222bf9baae9497c5f938afb52f7dd74970d189fd"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/NOTICE.txt": {
+      "size": 693,
+      "sha256": "d0bc255000b8add30f20ea678860433132c65d2287f39a5dcb2d5ed5b8c781cd"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/NOTICE_ORBIT.txt": {
+      "size": 870,
+      "sha256": "40f3e9d3df8f0a49dd8e814757f94e08d82a2fd08d0d783c685ca510aa2498b2"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/NOTICE_PRINT.txt": {
+      "size": 664,
+      "sha256": "f5ec84fcb1979bd539eecbb401d3e768eacc2494726c93b757ac645aac32cea4"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/NOTICE_REGULAR.txt": {
+      "size": 960,
+      "sha256": "438325f8ba1a637fcc4db55a3df0a65de8734847d26957cf225bb0f311f67759"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Fonts/OFL.txt": {
+      "size": 4430,
+      "sha256": "88aece7d90f2bb7049719f11619a560af22af3451af141f12aa4f46bb157a99b"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/150/Background.gi": {
+      "size": 99554,
+      "sha256": "18636634533383812c80bcdd133caf2e44b13fda9d43063677605b28d4a6a940"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/150/BlindnessFilter.png": {
+      "size": 1645,
+      "sha256": "5e11617883eb23b7b01e6fd05abf9221af0f36158459f7676c942ef9f9736b6a"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/150/CommPanelBG.gi": {
+      "size": 1183888,
+      "sha256": "21255c84ba65e1eb43278c5193e2953000887c1b626474db1359f3d04b07dd55"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/150/Frame.png": {
+      "size": 3618,
+      "sha256": "4b0e91eefba63b0252f6ad4bd2b1dc768877ebe1fac6de3c58caf29b67ca85d4"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/150/RadarJamming.gai": {
+      "size": 597486,
+      "sha256": "b1053725bdfe10fd5dc2670d569f83b077b027b04102584366755872cfa5aa74"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/200/Background.gi": {
+      "size": 176514,
+      "sha256": "207eb7bec3b0a18d4d265ce8fd97b8df81fbeee15760a552abe3f7bcafa1c896"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/200/BlindnessFilter.png": {
+      "size": 2531,
+      "sha256": "7fa19e131d842b2556248681b6986c6fbeb516fd44f44e0a75a6dce1e2988fa1"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/200/CommPanelBG.gi": {
+      "size": 1554976,
+      "sha256": "bb71dcef46a149c4a163cf33b8fcb40d9a59d5f063794a41a726963355f49e55"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/200/Frame.png": {
+      "size": 4127,
+      "sha256": "e48fe188ea243efd374202fbf6a5a45a67dc9cfdd1fc5d3389a2b54d8a37e244"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/200/RadarJamming.gai": {
+      "size": 1059246,
+      "sha256": "6bd2b3aa1ec42a5bd70db7e75595be6b3e57caf795028387e5a7c91302df49a3"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/250/Background.gi": {
+      "size": 275378,
+      "sha256": "4a279e0b6475f434b4188950f56dc1fb942361d552ac75e72183db946ec556ba"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/250/BlindnessFilter.png": {
+      "size": 4489,
+      "sha256": "7a8ea09de71bacecdfdbaca8530d5eb54ff2536d1c2545077849de0cafc9b434"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/250/CommPanelBG.gi": {
+      "size": 1947768,
+      "sha256": "cf595ccca17b062c05f31a2e2f96a0c455395b42f6e6d5b66b2e19e0b59eae3f"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/250/Frame.png": {
+      "size": 4505,
+      "sha256": "b132b14813239bea2821143ef97dc6b8561484df320c95365d7239166319f75c"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/250/RadarJamming.gai": {
+      "size": 1652430,
+      "sha256": "a19877b5ec6f3c82a378f8430d01d11b0f916e2e2ef422b7bf6470b6863f8ee9"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/CommCloseA.gi": {
+      "size": 5217,
+      "sha256": "062aa41c09713a13618b946ffa857e05de41c77694d1c70af951309a6d13139b"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/CommCloseD.gi": {
+      "size": 5100,
+      "sha256": "8f487b00fc50de43a4a5efd3d2b815f663bdaa47dfa271d1b821333b2583d638"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/CommCloseH.gi": {
+      "size": 5217,
+      "sha256": "397527d4425ed4da9db7108513b90f85567b66852a825d3a968dd59aaf20dfb0"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/CommCloseN.gi": {
+      "size": 5216,
+      "sha256": "f922fbe0929504a0de9e29dd35ffc02d383026c713effad5930237bcd57b93ee"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/PilotStarsLeft.gi": {
+      "size": 286816,
+      "sha256": "42bfe9a9808553d2ab6a2d055d05bd16d458d91a65513a9e2ffc3d1a4c7b3466"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/DATA/Radar/PilotStarsRight.gi": {
+      "size": 286816,
+      "sha256": "9c56472c094680ce4cd8fc8febc636fb8662a238b7028ae89a4d19cd2f1c0be9"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/ModuleInfo.txt": {
+      "size": 892,
+      "sha256": "c7022d40438c5ccceee66547d8b90c913f5921efe5c4cec594ef7cf9ac51fa4a"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/Native/FHD_GameScale2.XenoPlugin.dll": {
+      "size": 72704,
+      "sha256": "28a32e3a639c10871f7a2a55c4fcc91e002a35181ba5362ff066bfe26ebeff35"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/Native/FHD_GameScale2.XenoPlugin.ini": {
+      "size": 53,
+      "sha256": "8241a705eab1c354c37a71ea900d542c766bc779eecae8c2ab8bf68b705d5d25"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/README_RU.txt": {
+      "size": 34775,
+      "sha256": "391e35851d3c1ead59b5e4d02280819a11b5b393d2e92ef0bd548d60b73bb7f3"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/CacheData.txt": {
+      "size": 5761,
+      "sha256": "4ce35eb4377d673ddc51d765b95e36f301536b52b246449efeeb6b584a11ebdd"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/Fonts/DejaVu-LICENSE.txt": {
+      "size": 4920,
+      "sha256": "74cdc53c48d2c371d79d55503954482161753559360c4f92c867de743287d07c"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/Fonts/DejaVu-Regular-LICENSE.txt": {
+      "size": 4920,
+      "sha256": "74cdc53c48d2c371d79d55503954482161753559360c4f92c867de743287d07c"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/Fonts/DejaVuSans-Bold.ttf": {
+      "size": 708920,
+      "sha256": "a4c5bc453ca281d90ea079e596da7ae0dfeb5777497c29ec254e76d97ff6f890"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/Fonts/DejaVuSans.ttf": {
+      "size": 759720,
+      "sha256": "57f73e11f51999432bf7ab22ce55b6f945d5eca1bf824404cfa9ec2e3718c84e"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/Fonts/Exo2-OFL.txt": {
+      "size": 4386,
+      "sha256": "7f95a8eeecc6904ffc81cd10cc8ebc7fcee72a67922924bf45f02dff03b88127"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/Fonts/Exo2-Variable.ttf": {
+      "size": 303940,
+      "sha256": "205a448676a2586f9c57c25f3d5c58ca8db7e6cf5edf7506783a010c6fe2bfb5"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/Fonts/Lobster-Regular.ttf": {
+      "size": 406076,
+      "sha256": "d6568e697fd50cedc0be04d8aae4127fe95add607e7bff954ca88604be80c205"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/Fonts/OFL.txt": {
+      "size": 4430,
+      "sha256": "88aece7d90f2bb7049719f11619a560af22af3451af141f12aa4f46bb157a99b"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/build.sh": {
+      "size": 2460,
+      "sha256": "e7d5a01728fee431b4fd61f6fca663ba7935cdd6ea6c5f44ed1e6bae7657d739"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/build_orbit_font.py": {
+      "size": 3512,
+      "sha256": "37e20cb14ae7fec8793bd35767f5a499eabae86feaf4bf9d0342c9a61f187d5e"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/build_print_font.py": {
+      "size": 2965,
+      "sha256": "93adbfef4071a4f6b3be9289b00dab2271f7997dea1fa866173449be998c8768"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/build_regular_fonts.py": {
+      "size": 4343,
+      "sha256": "109c79231e4085125dfab198b5ab785fcad86646ace693b0b99c2da4ed5b1652"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/build_script_font.py": {
+      "size": 5422,
+      "sha256": "3eff50f7dc92adf160bd8026d28b67a77dbd8818d346ec8f7d0389caa3cffbbb"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/compile_srhd_dat.py": {
+      "size": 6891,
+      "sha256": "b1c2895fbd1f53d74b65e2c3a325d0cd0eec2bf081fece40dc85180b2084577a"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/elf_to_coff.py": {
+      "size": 3165,
+      "sha256": "ffb0e4ed2f11dd81c03140b66b9d508a4594f6e430b75fba8bcffbc7605e2a62"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/font_styles.inc": {
+      "size": 10266,
+      "sha256": "bc88e1de8be9bc60c5972a6dab410f7fdf515ab835e202623e57c7f45a33f510"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/game_scale.c": {
+      "size": 45554,
+      "sha256": "b3b538acdd7282ecc1345d68b64ec1506fa8df1d1508bc47f2f66752bd92c497"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/game_scale.def": {
+      "size": 93,
+      "sha256": "e0f348e767c6b7070da027514cc6db3cfe723a72e2c034e510711cd711042f25"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/global_ui.inc": {
+      "size": 41924,
+      "sha256": "8e9b6a78e81f011554015113e66d37e1c7916940d230716e2e0ff3dc3a3f4474"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/government_scale.inc": {
+      "size": 4966,
+      "sha256": "d02fae7eea6eb5fa783aad1487d83c28a7d83a9e9465ac080064e44d848c77e8"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/hud.inc": {
+      "size": 30972,
+      "sha256": "5360f1b7b13deba6306551181ff4232db728aa2852642dac49375f0d31011a51"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/info.inc": {
+      "size": 7144,
+      "sha256": "41f631262d102894efaa31d67a1cf0aede25c43814920579a7526e30ea2cddd0"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/kernel32.def": {
+      "size": 130,
+      "sha256": "da583e790f47c2325f7fbaac194b1a295d5d7a9866dc70d9cca62f79a2013333"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/scale_math.h": {
+      "size": 2697,
+      "sha256": "49cb5494c8d0518dc81ba52f2d6f311893374e8a377fee5b1a5894fd088b8427"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/test_scale_math.c": {
+      "size": 1097,
+      "sha256": "42ad0e9cbdf90e6c07cc6df938a02eac0daa36dada14a30fb09ac2771edfd93e"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/text_profiles.inc": {
+      "size": 3958,
+      "sha256": "ac9606f0cf6f0d475f5ff158df563e7b41fbbf272d64c132216f005c6d74999b"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/ui_transform.h": {
+      "size": 3664,
+      "sha256": "4354cd09ede136372cdc8c5239b8e573fb09014d70b031b0983f29388fb119b6"
+    },
+    "Mods/FHD_MODS/FHD_GameScale2/SOURCE/user32.def": {
+      "size": 131,
+      "sha256": "0be3f29f029e0401f0454d3c27d100e39860e2ba67a48b933d693abb94441b33"
+    },
+    "XenoNative/Plugins/FHD_FastNewGame/FHD_FastNewGame.ini": {
+      "size": 509,
+      "sha256": "c722e0c24796add00a7795009b387772750c8451b1924e641edb869d9dc93d50"
+    },
+    "XenoNative/Plugins/FHD_FastNewGame/FHD_FastNewGame.XenoPlugin.dll": {
+      "size": 11597,
+      "sha256": "3225b73c06e2e82cfb7ec21a20951fd3b6a1e3584093a77f4ceef51f01e1d08d"
+    },
+    "XenoNative/Plugins/FHD_FastNewGame/XenoNativePlugin.ini": {
+      "size": 95,
+      "sha256": "5db922be66df9a634bf3fcf321362f53604aed45defdfd5ce5a3fee161a3b600"
+    },
+    "XenoNative/Plugins/XenoStable/README_RU.txt": {
+      "size": 4430,
+      "sha256": "30fa3b17d5b311c1c5e0871cc8e860ed5eb23d833fb833cc0296b3598dfecd29"
+    },
+    "XenoNative/Plugins/XenoStable/XenoNativePlugin.ini": {
+      "size": 78,
+      "sha256": "af86e23f870126d319aa06b00e5078812e172e6974065fc61b1e224220a5e75d"
+    },
+    "XenoNative/Plugins/XenoStable/XenoStable.ini": {
+      "size": 282,
+      "sha256": "425c98c9b73ab35717497c3dfa8bec950359ea89dd4ae8ecc95afa3e906c3f6f"
+    },
+    "XenoNative/Plugins/XenoStable/XenoStable.Runtime.dll": {
+      "size": 248320,
+      "sha256": "2c0e678c7d1eec6b7dd496473b227e5a9e724b6982de6f5537ceb1a4dc5950ad"
+    },
+    "dsound.dll": {
+      "size": 79360,
+      "sha256": "ff8f36a294294fedd97a6846cbd390b7cbf46187878194c517935e16843b289b"
+    },
+    "XenoCore.dll": {
+      "size": 333824,
+      "sha256": "28f8f59cb00d08b5134e3bf38c4d17544517a5a213b783ba5edfb2b3cb109f3c"
+    },
+    "XenoNative.ini": {
+      "size": 168,
+      "sha256": "ee125e7ef4ff5f05747261fa12a1fe1455b2a0d39b6548c1e65d71cd4c5c9f82"
+    }
+  }
+}
